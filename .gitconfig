@@ -5,6 +5,7 @@
 	excludesfile = /Users/dan.popa/.gitignore_global
 	editor = nano
 	precomposeUnicode = true
+	ignorecase = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
