@@ -3,7 +3,7 @@
 	email = danpopa1998@gmail.com
 [core]
 	excludesfile = /Users/dan.popa/.gitignore_global
-	editor = nano
+	editor = code --wait
 	precomposeUnicode = true
 	ignorecase = false
 [difftool "sourcetree"]
