@@ -8,7 +8,3 @@ alias remove-node-modules-recursively='find . -name "node_modules" -exec rm -rf 
 alias ssh-hetzner="ssh root@78.47.124.58"
 atgse-start(){cd ~/work/atgse/packages/atgse && yarn start $@ --hot}
 outputFilenamesContaining(){egrep $@ -l -R .}
-alias web="yarn --cwd ~/work/atgse atg web"
-alias atg="yarn --cwd ~/work/atgse atg"
-alias web2="yarn --cwd ~/work/atgse2 atg web"
-alias atg2="yarn --cwd ~/work/atgse2 atg"
