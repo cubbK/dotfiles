@@ -23,3 +23,7 @@
     rswitch = "!f() { REGEX=$1; shift; git checkout \"$@\" \"$(git branch --all | cut -c 3- | sed 's|^remotes/.*/||' | grep -m 1 -iEe \"$REGEX\" )\"; }; f"
     changes = "diff --name-only master..."
     poop = "reset --hard"
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
